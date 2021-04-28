@@ -11,7 +11,7 @@ use Hash;
 class AuthController extends Controller
 {
     //
-        public function me()
+    public function me()
     {
         return response()->json(auth('api')->user());
     }
